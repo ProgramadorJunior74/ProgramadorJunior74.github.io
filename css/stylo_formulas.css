@@ -139,13 +139,7 @@ h3 , .header .header_icons2 b, .header_button, .header_button2{
     .container{
         padding:0;
     }
-    .header_icons2{
-        flex-wrap:wrap;
-    }
-    .header{
-        flex-wrap:wrap;
-    }
-    .nose1{
+    .header, .header_icons2, .nose1{
         flex-wrap:wrap;
     }
 }
