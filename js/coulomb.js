@@ -43,7 +43,7 @@ function cargaVarianteQ1Si(){
     else if(input1.value.includes("stc")){
       cargaReplace1 = input1.value.replace("stc", "");
       cargaResuelve1 = parseFloat(cargaReplace1) * 2.998e9;
-      carga = `q1 || q2 = ${input1.value} * 3.3356x10-¹⁰c / 1stc = ${cargaResuelve1}c`;
+      carga = `q1 || q2 = ${input1.value} * 2.998x10⁹c / 1stc = ${cargaResuelve1}c`;
       pResuelve5.textContent = carga
       prosedimiento.appendChild(pResuelve5);
 
@@ -91,7 +91,7 @@ function cargaVarianteQ2Si(){
   else if(input2.value.includes("stc")){
     cargaReplace2 = input2.value.replace("stc", "");
     cargaResuelve2 = parseFloat(cargaReplace2) * 2.998e9;
-    carga = `q2 || q1 = ${input2.value} * 3.3356x10-¹⁰c / 1stc = ${cargaResuelve2}c`;
+    carga = `q2 || q1 = ${input2.value} * 2.998x10⁹c / 1stc = ${cargaResuelve2}c`;
     pResuelve6.textContent = carga
     prosedimiento.appendChild(pResuelve6);
   }
