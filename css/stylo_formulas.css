@@ -113,7 +113,9 @@ h3:hover{
 h3 , .header .header_icons2 b, .header_button, .header_button2{
     color:rgb(250,250,250);
 }
-
+.nose1{
+    display:flex;
+}
 @media screen and (max-width:531px){
     b{
         visibility: hidden;
@@ -141,6 +143,9 @@ h3 , .header .header_icons2 b, .header_button, .header_button2{
         flex-wrap:wrap;
     }
     .header{
+        flex-wrap:wrap;
+    }
+    .nose1{
         flex-wrap:wrap;
     }
 }
