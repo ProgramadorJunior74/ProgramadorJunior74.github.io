@@ -115,6 +115,7 @@ h3 , .header .header_icons2 b, .header_button, .header_button2{
 }
 .nose1{
     display:flex;
+    flex-direction:row;
 }
 @media screen and (max-width:531px){
     b{
