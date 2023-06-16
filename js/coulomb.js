@@ -559,7 +559,7 @@ function variables(){
     alert("Lo sentimos, pero debe seleccionar las obciones corespondiente");
   }
 
-  // next.disabled = true;
+  next.disabled = true;
 }
 
 
