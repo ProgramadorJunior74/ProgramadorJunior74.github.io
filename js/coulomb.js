@@ -43,7 +43,7 @@ function cargaVarianteQ1Si(){
     else if(input1.value.includes("stc")){
       cargaReplace1 = input1.value.replace("stc", "");
       cargaResuelve1 = parseFloat(cargaReplace1) * 2.998e9;
-      carga = `q1 || q2 = ${input1.value} * 2.998x10⁹c / 1stc = ${cargaResuelve1}c`;
+      carga = `q1 || q2 = ${input1.value} * 2.998x10⁹ / 1stc = ${cargaResuelve1}c`;
       pResuelve5.textContent = carga
       prosedimiento.appendChild(pResuelve5);
 
@@ -401,10 +401,10 @@ function variables(){
       bResolver = boton.addEventListener("click", function(){
         definiendo_f_for_qn()
         definiendo_d()
-        convercion = `q =  ${dato_f(input2.value)}N * ${dato_d(input3.value)}²m / 9x10⁹Nm²/c² `;
+        convercion = `q =  √${dato_f(input2.value)}N * ${dato_d(input3.value)}²m / 9x10⁹Nm²/c² `;
         pResuelve1.textContent = convercion
         prosedimiento.appendChild(pResuelve1);
-        eliminacion =  `q =  ${dato_f(input2.value)}<del class="eliminacion">N</del> * ${dato_d(input3.value)}²<del class="eliminacion">m</del> / 9x10⁹<del class="eliminacion">Nm²/c²</del>  `;
+        eliminacion =  `q =  √${dato_f(input2.value)}<del class="eliminacion">N</del> * ${dato_d(input3.value)}²<del class="eliminacion">m</del> / 9x10⁹<del class="eliminacion">Nm²/c²</del>  `;
         pResuelve2.innerHTML = eliminacion
         prosedimiento.appendChild(pResuelve2);
         r = Math.sqrt((parseFloat(dato_f(input2.value)) * (parseFloat(dato_d(input3.value))**2) )/ 9e9 ) 
