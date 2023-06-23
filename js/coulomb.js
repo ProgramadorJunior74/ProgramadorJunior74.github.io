@@ -3,15 +3,6 @@
 
 
 
-var contenido = "⁸ⁿ⁷⁷⁷⁴⁴³⁴³⁴ⅦⅢ⅘ⅱⅯⅷⅱ₅";
-parrafo = document.createElement("b");
-
-var contenidoCodificado = encodeURIComponent(contenido);
-let question = document.getElementById("pregunta");
-parrafo.textContent = contenido;
-question.appendChild(parrafo);
-
-
 function funcionBoton(){
   boton = document.createElement("button");
   boton.textContent = "resolver";
