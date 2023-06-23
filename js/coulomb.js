@@ -1,5 +1,13 @@
 //FUNCIONSE PARA IMPRIMIR 
 //funcion de boton 
+
+
+
+var contenido = "⁸ⁿ⁷⁷⁷⁴⁴³⁴³⁴ⅦⅢ⅘ⅱⅯⅷⅱ₅";
+var contenidoCodificado = encodeURIComponent(contenido);
+alert(contenidoCodificado);
+
+
 function funcionBoton(){
   boton = document.createElement("button");
   boton.textContent = "resolver";
